@@ -16,10 +16,9 @@ A simple Python program to generate random 4 digits number and 6 two-digits numb
 
 ## Toto methodology
 
-- As above.
-- Two digits are selected and combine as a pair.
-- Additional check for double zeros which does not exist in Toto numbers. For example `00` is not a valid Toto number.
-- If double zeros is selected as a pair, the numbers are re-selected.
+- Random selection from list (1 to 50)
+
+Do all numbers stand an equal chance of getting selected? 
 
 ## Result
 
