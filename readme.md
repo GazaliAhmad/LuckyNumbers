@@ -4,6 +4,7 @@ A simple Python program to generate random 4 digits number and 6 two-digits numb
 
 - `LuckyNumbersRandomModule.py` uses Random module and its methodolodies are described below.
 - `LuckyNumbersRandomList` generates a list of numbers. List4D (0 to 9999) and ListToto (1 to 50). The numbers are randomly selected from the respective lists.
+- `LuckyNumbers.java` Same program written in Java.
 
 ## 4D methodology
 
@@ -16,9 +17,7 @@ A simple Python program to generate random 4 digits number and 6 two-digits numb
 
 ## Toto methodology
 
-- Random selection from list (1 to 50)
-
-Do all numbers stand an equal chance of getting selected? 
+- Random selection from list (1 to 50).
 
 ## Result
 
