@@ -31,4 +31,4 @@ totoResult = str(drawnToto()).strip('[]').replace("'", "")
 
 print("\nUsing random module to generate 4D numbers and Toto numbers")
 print(f"Your lucky 4D number is {result4D}")
-print(f"Your lucky drawnToto numbers are {totoResult}\n")
+print(f"Your lucky Toto numbers are {totoResult}\n")
