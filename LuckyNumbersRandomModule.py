@@ -15,13 +15,11 @@ def drawn4D():
 
 def drawnToto():
     for i in range(6):
-        randomNum1 = random.randint(0, 9)
-        randomNum2 = random.randint(0, 9)
-        while (randomNum1 == 0 and randomNum2 == 0):
-            randomNum1 = random.randint(0, 9)
-            randomNum2 = random.randint(0, 9)
-        randomNum = str(randomNum1) + str(randomNum2)
-        ListToto.append(randomNum)
+        randomNumToto = random.randint(1, 49)
+        if randomNumToto < 10:
+            randomNumToto = "0" + str(randomNumToto)
+        drawnToto = str(randomNumToto)
+        ListToto.append(drawnToto)
     return ListToto
 
 

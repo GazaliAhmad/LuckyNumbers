@@ -2,8 +2,8 @@
 
 A simple Python program to generate random 4 digits number and 6 two-digits number. One is using the random module and the other is using a generated list.
 
-`LuckyNumbersRandomModule.py` uses Random module and its methodolodies are described below.
-`LuckyNumbersRandomList` generates a list of numbers. List4D (0 to 9999) and ListToto (1 to 50). The numbers are randomly selected from the respective lists.
+- `LuckyNumbersRandomModule.py` uses Random module and its methodolodies are described below.
+- `LuckyNumbersRandomList` generates a list of numbers. List4D (0 to 9999) and ListToto (1 to 50). The numbers are randomly selected from the respective lists.
 
 ## 4D methodology
 
@@ -25,4 +25,4 @@ A simple Python program to generate random 4 digits number and 6 two-digits numb
 
 - The result is displaced as what is familiar to people.
 - Removed `[] , ()`
-- Leading zeros are added. Correct fromat: `08` and not `8`.
+- Leading zeros are added. Correct format: `08` and not `8`.
