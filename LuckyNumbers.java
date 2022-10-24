@@ -15,7 +15,8 @@ public class LuckyNumbers {
 			lucky4d[i] = (int) (Math.random() * 10);
 			i++;
 		}
-		return "%d%d%d%d".formatted(lucky4d[0],
+		return "%d%d%d%d".formatted(
+        lucky4d[0],
 				lucky4d[1],
 				lucky4d[2],
 				lucky4d[3]);
@@ -27,7 +28,8 @@ public class LuckyNumbers {
 			luckyToto[i] = (int) (Math.random() * 49 + 1);
 			i++;
 		}
-		return "%02d %02d %02d %02d %02d %02d\n".formatted(luckyToto[0],
+		return "%02d %02d %02d %02d %02d %02d\n".formatted(
+        luckyToto[0],
 				luckyToto[1],
 				luckyToto[2],
 				luckyToto[3],
